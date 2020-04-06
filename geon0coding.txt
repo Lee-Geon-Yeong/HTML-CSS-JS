@@ -28,6 +28,9 @@
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300"> -> 웹 페이지의 위치를 기반으로 네비게이션 바의 메뉴가 변하는 것.(연결할 요소에 data-spy="scroll"을 추가하기 위해서 data-target의 nav 컴퍼넌트 클래스 혹은 id를 추가한다, 일반적으로 body에 적용)
   
   <div class="site-wrap">
+  -> div와 span에 대하여. 이 의미없는 요소들은 필요에 따라 그룹을 만들거나, css로 조절하기 위해 사용됨.
+     div는 블록 요소이고, span은 인라인 요소이다. 둘 다 자기 자신을 중첩할 수 있다.
+     특히, div는 레이아웃 잡는 용도로 많이 쓰기 때문에 많이 중첩된다.
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
