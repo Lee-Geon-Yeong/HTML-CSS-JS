@@ -1,5 +1,5 @@
 <!DOCTYPE html> -> HTML문서를 시작할 때 이 문서는 HTML문서이고, 어떤 버전을 사용했으면 그 버전에 맞는 방법으로 해석하라고 알려주는 선언문
-<html lang="en"> -> 이 사이트의 언어 종류 선언 
+<html lang="en"> -> 이 사이트의 언어 종류 선언  
   <head>
     <title>건빵코딩 </title> -> 각각의 웹페이지 제목을 말하며, 브라우저의 최상단으로 노출
     <meta charset="utf-8"> -> meta 태그 중 하나인 charset은 해당 페이지의 인코딩 방식을 말한다. 가장 많이 사용되는 인코딩 방식은 "utf-8"과 "EUC-KR"
