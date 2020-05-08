@@ -1,5 +1,5 @@
 <!DOCTYPE html> -> HTML문서를 시작할 때 이 문서는 HTML문서이고, 어떤 버전을 사용했으면 그 버전에 맞는 방법으로 해석하라고 알려주는 선언문
-<html lang="en"> -> 이 사이트의 언어 종류 선언
+<html lang="en"> -> 이 사이트의 언어 종류 선언(language)
   <head>
     <title>건빵코딩 </title> -> 각각의 웹페이지 제목을 말하며, 브라우저의 최상단으로 노출
     <meta charset="utf-8"> -> meta 태그 중 하나인 charset은 해당 페이지의 인코딩 방식을 말한다. 가장 많이 사용되는 인코딩 방식은 "utf-8"과 "EUC-KR"
@@ -32,7 +32,7 @@
      div는 블록 요소이고, span은 인라인 요소이다. 둘 다 자기 자신을 중첩할 수 있다.
      특히, div는 레이아웃 잡는 용도로 많이 쓰기 때문에 많이 중첩된다.
 
-    <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu site-navbar-target"> -> navbar는 상단메뉴바를 의미함.
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
           <span class="icon-close2 js-menu-toggle"></span>
@@ -41,8 +41,8 @@
       <div class="site-mobile-menu-body"></div>
     </div>
    
-    <div class="border-bottom top-bar py-2 bg-dark" id="home-section">
-      <div class="container">
+    <div class="border-bottom top-bar py-2 bg-dark" id="home-section"> -> <div id="navbar"...> 메뉴를 구성하는 영역
+      <div class="container"> -> 상단 메뉴바(Navbar)의 폭을 조절하는 부분
         <div class="row">
           <div class="col-md-6">
             <p class="mb-0">
