@@ -1,6 +1,6 @@
 function solution(arr){
     var myArray=[];
-    var count=1;
+    var count=1; 
     var answer=0;
  
     while(1){
