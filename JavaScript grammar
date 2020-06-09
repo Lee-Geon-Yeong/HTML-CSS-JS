@@ -4,7 +4,7 @@
   
   1) 자료형
    내부적으로는 Primitive(기본형)과 Object(객체형)이 있으며 각각 다음과 같다.
-
+ 
    Primitive
     - Boolean : true, false
     - null : 빈 값을 표현
