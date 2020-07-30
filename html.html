@@ -1,0 +1,118 @@
+<!-- i는 줄 안바꿈 , h,p는 줄 바꿈-->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--html 주석문-->
+    <style>
+        /* css 주석문 */
+    </style>
+
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body id="top">
+    <h1>Hello &lt; &copy; &amp; &gt; &nbsp;&nbsp; HTML5</h1>
+    <hr />
+    <!--수평 줄 태그-->
+    <ul>
+        <li>사과</li>
+        <li>바나나</li>
+        <li>오렌지</li>
+    </ul>
+    <p>안녕하세요...</p>
+    <br />
+    <!--개행 줄 태그-->
+    <h2>제목 글자 태그 2</h2>
+    <p>안녕하세요...</p>
+
+    <a href="http://naver.com/">네이버</a><br />
+    <a href="style.css">테스트</a><br />
+    <!--지금 이 파일이 저장되있는 디렉토리 기준에 있는 문서들-->
+    <a href="#alpha">Alpha 부분</a><br />
+    <a href="#beta">Beta 부분</a><br />
+    <br />
+    <table border="1">
+        <thead>
+            <tr>
+                <td>thead 태그 내부</td>
+                <td>thead 태그 내부</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>tbody 태그 내부</td>
+                <td>tbody 태그 내부</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>tfoot 태그 내부</td>
+                <td>tfoot 태그 내부</td>
+            </tr>
+        </tfoot>
+        <tr>
+            <th colspan="2">지역별 홍차</th>
+        </tr>
+        <tr>
+            <th rowspan="3">중국</th>
+            <td>정산소종</td>
+        </tr>
+        <tr>
+            <td>기문</td>
+        </tr>
+        <tr>
+            <td>운남</td>
+        </tr>
+        <tr>
+            <th rowspan="4">인도 및 스리랑카</th>
+            <td>아삼</td>
+        </tr>
+        <tr>
+            <td>실론</td>
+        </tr>
+        <tr>
+            <td>다질링</td>
+        </tr>
+        <tr>
+            <td>닐기리</td>
+        </tr>
+
+    </table>
+    <br /><br /><br /><br />
+    <h1 id="alpha">Alpha [<a href="#top">Top</a>]</h1>
+    <a href="images/penguin.jpg">
+        <img src="images/penguin.jpg" alt="펭귄" width="300" />
+    </a>
+    <br /><br /><br /><br /><br />
+    <h1 id="beta">Beta [<a href="#top">Top</a>]</h1>
+    <form>
+        <!-- 사용자가 입력하는 입력 양식 -->
+        <input type="text" name="text" value="text" /><br />
+        <input type="password" name="password" value="password" /><br />
+        <input type="file" name="file" value="file" /><br />
+        <input type="checkbox" name="checkbox" value="checkbox" /><br />
+        <input type="radio" name="radio" value="radio" /><br />
+        <!-- 보이지 않는 입력 양식 -->
+        <input type="hidden" name="hidden" value="hidden" /><br />
+        <!-- 버튼 -->
+        <input type="button" value="button" /><br />
+        <input type="reset" value="reset" /><br />
+        <input type="submit" value="submit" /><br />
+        <input type="image" src="http://placehold.it/100x100" />
+    </form>
+    <select name=“lunch”>
+        <option>김밥</option>
+        <option>떡볶이</option>
+        <option>순대</option>
+        <option>어묵</option>
+    </select>
+    <br /><br /><br /><br /><br />
+
+</body>
+</html>
