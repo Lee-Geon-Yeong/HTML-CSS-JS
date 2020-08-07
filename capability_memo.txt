@@ -1,0 +1,17 @@
+open in browser설치 ->live server설치 ->open with live server (저장하면 바로 웹문서 내용 바뀜)
+beautify -> F1->beautify file (들여쓰기 알아서 해줌)
+https://github.com/Lee-Geon-Yeong/HTML-CSS-JS
+
+sql server port 3307
+
+1. bitnami를 통해 아파치 사용하여 웹서버웹브라우저 통신
+
+2. bootstrap4 통해서 반응형 웹 만들기
+
+3. 폰트 다운받을 때 font awesome(확장팩)
+
+4. node.js 이용해 js사용
+
+code runner(확장팩) ->파일의 확장자를 보고 어떻게 실행시키는지 확인하여 실행시킴
+
+5. HeidiSQL통해(MariaDB의 핵심 유틸리티) 데이터베이스 만들고 Django로 가상환경 프로젝트 만들기
