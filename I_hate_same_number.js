@@ -1,7 +1,7 @@
 function solution(arr){
     const newArray=[];
     arr.forEach(function(a){ 
-        if(newArray[newArray.length-1]!=a){
+        if(newArray[newArray.length-1]!=a){ 
             newArray.push(a);
         }
     });
